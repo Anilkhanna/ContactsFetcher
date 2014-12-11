@@ -22,7 +22,7 @@ enum {
 };
 typedef NSUInteger ContactFetchOptions;
 
-@interface ContactsFetcher : NSObject
+@interface AKContactsFetcher : NSObject
 
 
 

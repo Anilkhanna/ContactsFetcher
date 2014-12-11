@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Anil Khanna. All rights reserved.
 //
 
-#import "ContactsFetcher.h"
+#import "AKContactsFetcher.h"
 
-@implementation ContactsFetcher
+@implementation AKContactsFetcher
 
 + (void)fetchContactsWithOptions:(ContactFetchOptions)options WithCompletion:(void (^)(NSArray *contacts))success failure:(void (^)(NSError *error))failure {
     
